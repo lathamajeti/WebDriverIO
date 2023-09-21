@@ -5,5 +5,6 @@ describe('My Demo application', () => {
         await $('#username').setValue("tomsmith")
         await $('#password').setValue("SuperSecretPassword!")
         await $('button[type="submit"]').click()
+        browser.pause(2000)
     })
 })
